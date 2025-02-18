@@ -1,0 +1,15 @@
+# Ignore WordPress core files
+wp-admin/
+wp-includes/
+readme.html
+license.txt
+
+# Ignore uploads and cache
+wp-content/uploads/
+wp-content/cache/
+wp-content/backup-*/ 
+
+# Ignore config and sensitive files
+wp-config.php
+*.log
+*.sql
